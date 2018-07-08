@@ -11,7 +11,9 @@ jobs:
           name: "Installing poetry"
       - run:
           command: |
-              poetry run pytest --cov=track tests
+              export PATH="/home/circleci/.local/bin:$PATH"
+              poetry dev
+              poetry run pytest --cov=python_ottawa_transit
           name: "Running tests"
     working_directory: ~/repo
 workflows:
