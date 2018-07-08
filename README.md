@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/buckley-w-david/python-ottawa-transit.svg?style=svg)](https://circleci.com/gh/buckley-w-david/python-ottawa-transit)
 # python-ottawa-transit
 
 Python interface to the [OC Transpo](http://www.octranspo.com/developers/documentation) API and utilities for working with the returned data.
