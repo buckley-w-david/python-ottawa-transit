@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-ottawa-transit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python interface for OCTranspo API"
 authors = ["David Buckley <buckley.w.david@gmail.com>"]
 license = "MIT"

@@ -7,7 +7,7 @@ jobs:
           path: ~/repo
       - run:
           command: |
-              curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
+              pip install --user poetry
           name: "Installing poetry"
       - run:
           command: |
