@@ -22,5 +22,5 @@ poetry install
 >>> from python_ottawa_transit import OCTransportApi
 >>> api = OCTransportApi(app_id = 'APPLICATION_ID', app_key = 'APPLICATION_KEY')
 >>> api.get_route_summary_for_stop(stop_no=8435)
-'{"GetRouteSummaryForStopResult":{"StopNo":"8435","StopDescription":"BANK \\/ COLLINS","Error":"","Routes":{"Route":{"RouteNo":6,"DirectionID":1,"Direction":"Northbound","RouteHeading":"Rockcliffe"}}}}'
+{"GetRouteSummaryForStopResult":{"StopNo":"8435","StopDescription":"BANK \\/ COLLINS","Error":"","Routes":{"Route":{"RouteNo":6,"DirectionID":1,"Direction":"Northbound","RouteHeading":"Rockcliffe"}}}}
 ```

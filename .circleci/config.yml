@@ -1,0 +1,21 @@
+jobs:
+  python_ottawa_transit:
+    docker:
+      - image: "circleci/python:3.6"
+    steps:
+      - checkout:
+          path: ~/repo
+      - run:
+          command: |
+              curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
+          name: "Installing poetry"
+      - run:
+          command: |
+              poetry run pytest --cov=track tests
+          name: "Running tests"
+    working_directory: ~/repo
+workflows:
+  version: 2
+  tracker:
+    jobs:
+      - python_ottawa_transit
