@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-ottawa-transit"
+version = "0.1.0"
+description = "Python interface for OCTranspo API"
+authors = ["David Buckley <buckley.w.david@gmail.com>"]
+license = "MIT"
+
+readme = 'README.md'
+repository = "https://github.com/buckley-w-david/python-ottawa-transit"
+homepage = "https://github.com/buckley-w-david/python-ottawa-transit"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+pytest-cov = "^2.5"
+pylint = "^1.9"
+mypy = "^0.610.0"
+black = "^18.3-alpha.0"

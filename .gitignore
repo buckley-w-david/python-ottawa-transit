@@ -1,0 +1,10 @@
+# Build
+dist/
+
+# Linting
+.mypy_cache/
+.pytest_cache/
+
+__pycache__/
+*.py[cod]
+*.egg-info
